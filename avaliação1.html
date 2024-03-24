@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Avaliação 1</h1>
+        <nav>
+          <ul>
+            <li><a href="#1"> Exemplo de imagem</a></li>
+            <li><a href="#2"> Exemplo de tabela</a></li>
+            <li><a href="#3"> Exemplo de formuláro</a></li>
+          </ul>   
+        </nav>
+      </header>
+    </article>
+
+    <main>
+      <article id="1">
+        <header>
+          <h2 >Esse é um uso de imagem</h2>
+        </header>
+        <figure>
+          <img
+            src="https://github.com/SeaQL/otter-sql/blob/main/assets/OtterSQL.png?raw=true"
+            higth="270"
+            width="270"
+            alt="exemplo de imagem."
+          />
+          <figcaption>Mascote Otter SQL</figcaption>
+        </figure>
+      </article>
+
+      <article id="2">
+        <header>
+          <h2>Esse é um uso de tabela</h2>
+        </header>
+        <table>
+          <thead>
+            <tr>
+                <th>Tecnologia</th>
+                <th>Nome do mascote</th>
+                <th>Espécie do mascote</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Github</td>
+                <td>Octocat</td>
+                <td>Polvo-gato</td>
+            </tr>
+            <tr>
+                <td>Go</td>
+                <td>Gopher</td>
+                <td>Marmota</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      
+      <article id="3">
+        <header>
+          <h2>Trabalhe conosco</h2>
+        </header>
+        <form>
+          <div>
+            <label for="nome">Nome:</label>
+            <input placeholder="EX:João das Neves" type="text" id="nome" />
+          </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input placeholder="EX:joao.neves@winterfell.com" type="email" id="email" />
+          </div>
+          <div>
+            <label for="msg">Fale mais sobre você:</label>
+            <textarea id="msg"></textarea>
+          </div>
+          <div>
+              <label for="msg1">Receber emails de promoções</label>
+              <input type="checkbox" name="opcoes" value="html"/>
+          </div>
+          <div>
+              <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </article>
+    </main>
+
+
+    <footer>
+        <h3>Entre em contato</h3>
+        <p><a href="mailto: contato@winterfall.com"> contato@winterfall.com</a>
+        <a href="tel: +55(83)35321475">+55(83)35321475</a></p>
+        <p>&copy; Avaliação</p>
+    </footer>
+  </body>
+</html>
